@@ -1,0 +1,138 @@
+/* RESETS */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,body {
+    height: 100%;
+  }
+  
+  /* ANIMATIONS */
+  
+  /* GLOBAL CLASSES */
+  
+  .cube {
+    border-radius: 15px;
+    opacity: 0.85;
+    padding: 10px;
+    margin: 10px 20px;
+    display: flex;
+  }
+  
+  /* CUSTOM CSS */
+  
+  body {
+    background-image: url("../images/mainbkg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header {
+  background-color: #ffecd1;
+  border: 2px solid #ffecd1;
+  }
+  
+  #headRow {
+    height: 33.33%;
+  }
+
+  #icon {
+    width: 80px; 
+    height: 80px; 
+    overflow: hidden; 
+  }
+  
+  /* figure .icon {
+    width: 80px; 
+    height: 80px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    z-index: 200;
+    }
+   */
+  header h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  header h5 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  #portfolio {
+    background-color: #e70e02;
+    border: 2px solid #e70e02;
+  }
+
+  section #portRow {
+    height: 50%;
+  }
+  
+  #portfolio #portLink {
+    color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    align-self: flex-end;
+  }
+  
+  .aboutMe {
+    grid-area: ab;
+    background-color: #bb3e03;
+    border: 2px solid #bb3e03;
+    justify-items: space-between;
+  }
+  
+  .aboutMe .aboutLink {
+    color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 10px;
+    align-self: flex-end;
+  }
+  
+  .aboutMe .aboutMetext {
+    font-family: Calibri, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 50%;
+    color: white;
+    justify-self: flex-end;
+  }
+  
+  .digital {
+    grid-area: dc;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border: 2px solid #833ab4;
+    justify-items: space-evenly;
+  }
+  
+  .digital .digitalTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 0 10px;
+    align-self: left;
+    color: white;
+  }
+  
+  .digital .digitalLink {
+    color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 10px;
+    text-align: right;
+    align-self: flex-end;
+  }
+  
+  /* MEDIA QUERY */
